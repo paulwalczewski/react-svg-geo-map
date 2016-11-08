@@ -1,6 +1,6 @@
 {
   "name": "react-svg-geo-map",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Component for rendering SVG geo map",
   "main": "lib/index.js",
   "author": "paulwalczewski@icloud.com",
