@@ -1,0 +1,59 @@
+{
+  "name": "react-svg-geo-map",
+  "version": "1.0.0",
+  "description": "Component for rendering SVG geo map",
+  "main": "lib/index.js",
+  "author": "paulwalczewski@icloud.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "run test"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-inlinesvg": "^0.5.4"
+  },
+  "devDependencies": {
+    "enzyme": "^2.5.1",
+    "firenpm": "1.2.0",
+    "firenpm.web": "1.2.0",
+    "node-sass": "^3.11.2",
+    "postcss-loader": "^1.1.0",
+    "react-addons-test-utils": "^15.3.2",
+    "sass-loader": "^4.0.2",
+    "svg-url-loader": "^1.1.0"
+  },
+  "babel": {
+    "presets": [
+      "firenpm/babel-preset-es2015",
+      "firenpm/babel-preset-react",
+      "firenpm/babel-preset-stage-2"
+    ]
+  },
+  "runjs": {
+    "babel-register": "./node_modules/firenpm/babel-register"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/firenpm/eslint-config-standard.js",
+      "./node_modules/firenpm/eslint-config-standard-react.js"
+    ],
+    "parser": "./node_modules/firenpm/babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paulwalczewski/react-svg-geo-map.git"
+  },
+  "keywords": [
+    "react",
+    "chart",
+    "geo",
+    "map",
+    "google",
+    "component"
+  ],
+  "bugs": {
+    "url": "https://github.com/paulwalczewski/react-svg-geo-map/issues"
+  },
+  "homepage": "https://github.com/paulwalczewski/react-svg-geo-map#readme"
+}
